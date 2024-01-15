@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
+*{
+ font-family: 'Bona Nova', serif;
+}
+
+body {
+    background-color: #fafafa;
+    margin: 0;
+}
+
+ul {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.menu:hover {
+    background-color: #1a3680;
+}
+
+li.menu {
+    display: inline-block;
+}
+
+.acilir-menu-sec{
+    display: inline-block;
+    position: relative;
+    background-color: #111;
+    min-width: 160px;
+}
+
+.acilir-menu{
+    display: none;
+    position: fixed;
+    background-color: #111;
+    min-width: 160px;
+}
+
+.acilir-menu a {
+    display: block;
+    text-align: left;
+}
+
+.acilir-menu a:hover {
+    color: white;
+}
+
+.menu:hover .acilir-menu {
+    display: block;
+}
+
+.imlec {
+    background-color: #1A3680;
+    color: white;
+}
+
+.siyah-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+    margin: top 100%;
+}
+
+.giris_sabit{
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.yazı{
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    height: 100px;
+    color: #000;
+    display: flex;align-items: center;
+    justify-content: center;    
+}
+
+
+
+
